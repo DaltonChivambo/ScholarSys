@@ -11,6 +11,25 @@ public class Classroom {
     private ArrayList<Professor> professors;
     private ArrayList<Subject> subjects;
 
+    public Classroom(){
+        students = new ArrayList<>();
+        professors = new ArrayList<>();
+        subjects = new ArrayList<>();
+    }
+    public void addStudent(Student student){
+        students.add(student);
+    }
+    public int numberOfStudents(){
+        return students.size();
+    }
+
+    public void removeStudent(Student student){
+        students.remove(student);
+    }
+    public Student getStudent(int position){
+        return students.get(position);
+    }
+
     public int getId() {
         return id;
     }
@@ -35,7 +54,4 @@ public class Classroom {
         this.year = year;
     }
 
-    public void addStudent(){
-
-    }
 }
