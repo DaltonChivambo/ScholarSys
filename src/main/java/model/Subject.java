@@ -38,19 +38,4 @@ public class Subject {
         }
     }
 
-    public ArrayList<Professor> getProfessors() {
-        return professors;
-    }
-
-    public void setProfessors(ArrayList<Professor> professors) {
-        this.professors = professors;
-    }
-
-    public ArrayList<Classroom> getClassrooms() {
-        return classrooms;
-    }
-
-    public void setClassrooms(ArrayList<Classroom> classrooms) {
-        this.classrooms = classrooms;
-    }
 }

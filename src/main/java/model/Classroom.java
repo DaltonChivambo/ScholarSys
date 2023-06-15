@@ -35,30 +35,6 @@ public class Classroom {
         this.year = year;
     }
 
-    public ArrayList<Student> getStudents() {
-        return students;
-    }
-
-    public void setStudents(ArrayList<Student> students) {
-        this.students = students;
-    }
-
-    public ArrayList<Professor> getProfessors() {
-        return professors;
-    }
-
-    public void setProfessors(ArrayList<Professor> professors) {
-        this.professors = professors;
-    }
-
-    public ArrayList<Subject> getSubjects() {
-        return subjects;
-    }
-
-    public void setSubjects(ArrayList<Subject> subjects) {
-        this.subjects = subjects;
-    }
-
     public void addStudent(){
 
     }

@@ -25,22 +25,6 @@ public class Professor extends Person{
         this.salary = salary;
     }
 
-    public ArrayList<Subject> getSubjects() {
-        return subjects;
-    }
-
-    public void setSubjects(ArrayList<Subject> subjects) {
-        this.subjects = subjects;
-    }
-
-    public ArrayList<Classroom> getClassrooms() {
-        return classrooms;
-    }
-
-    public void setClassrooms(ArrayList<Classroom> classrooms) {
-        this.classrooms = classrooms;
-    }
-
     void applyAssessment(){
 
     }
